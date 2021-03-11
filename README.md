@@ -8,7 +8,5 @@ Production quality code: code that meets expectations in reliability, efficiency
 
 ### Always write clean and modular code
 
-#### Clean: 
-readable, simple and consise (for collaboration and maintainability).
-#### Modular: 
-logically broken up into functions and modules (for reusablity and efficiency).
+#### 1. Clean: readable, simple and consise (for collaboration and maintainability).
+#### 2. Modular: logically broken up into functions and modules (for reusablity and efficiency).
