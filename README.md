@@ -29,11 +29,11 @@ Python: PEP 8 -- Style Guide for Python Code https://www.python.org/dev/peps/pep
 
 ##### (1). Use meaningful names
 
------- (a). Be descriptive and imply type. Long names != descriptive names. For example: verbs for functions and nouns for variables, is_ or has_ for booleans
+###### (a). Be descriptive and imply type. Long names != descriptive names. For example: verbs for functions and nouns for variables, is_ or has_ for booleans
 
------- (b). Be consistent but clearly differentiate. For example: age_list and age is easier to differentiate than ages and age.
+###### (b). Be consistent but clearly differentiate. For example: age_list and age is easier to differentiate than ages and age.
 
------- (c). Avoid abbreviations unless the phrase will be used a lot in the program
+###### (c). Avoid abbreviations unless the phrase will be used a lot in the program
 
 ##### (2). Use whitespace properly
 ###### (a). Organize your code with consistent indentation. For example: the standard is to use 4 spaces for each indent.
