@@ -43,6 +43,30 @@
 
 #### Rule #2. Write modular code
 
+##### (1) Don't Repeat Yourself
+
+###### Generalize and consolidate repeated code in functions or loops.
+
+##### (2) Abstract out logic to improve readability
+
+###### Abstracting out code into a function not only makes it less repetitive, but also improves readability with descriptive function names. But do not over-engineer this.
+
+##### (3) Minimize the number of entities (functions, classes, modules, etc.)
+
+###### There are tradeoffs to having function calls instead of inline logic. Creating more modules doesn't necessarily result in effective modularization.
+
+##### (4) Functions should do one thing
+
+###### Generally, if there's an "and" in your function name, consider refactoring. Each function you write should be focused on doing one thing.
+
+##### (5) Try to use fewer than three arguments per function
+
+###### Try to use no more than three arguments when possible. his is not a hard rule and there are times it is more appropriate to use many parameters. If your function has a lot of parameters, you may want to rethink how you are splitting this up.
+
+
+
+
+
 
 
 
