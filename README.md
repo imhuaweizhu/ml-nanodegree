@@ -2,30 +2,30 @@
 
 ## Software eingieering practices
 
-Production code: software running on production servers to handle live users and data of the intended audience. 
+###### Production code: software running on production servers to handle live users and data of the intended audience. 
 
-Production quality code: code that meets expectations in reliability, efficiency, etc., for production.
+###### Production quality code: code that meets expectations in reliability, efficiency, etc., for production.
 
 ### Always write clean and modular code
 
 #### Two General Rules
 
-##### 1. Clean: readable, simple and consise (for collaboration and maintainability).
-##### 2. Modular: logically broken up into functions and modules (for reusablity and efficiency).
+###### 1. Clean: readable, simple and consise (for collaboration and maintainability).
+###### 2. Modular: logically broken up into functions and modules (for reusablity and efficiency).
 
 #### Refactoring Code
 
-It isn't easy to write your best code while you're still trying to just get it working. 
+###### It isn't easy to write your best code while you're still trying to just get it working. 
 
-So we need to go back, clean and modularize your program after you've got the coding task working. 
+###### So we need to go back, clean and modularize your program after you've got the coding task working. 
 
-Restructure your code to improve its internal structure, without changing its external functionality.
+###### Restructure your code to improve its internal structure, without changing its external functionality.
 
 #### Rule #1. Write clean code
 
-Reference the style guideline for your choice of language. 
-C++: Code style and coding guidelines https://named-data.net/doc/ndn-cpp-dev/0.4.0/code-style.html
-Python: PEP 8 -- Style Guide for Python Code https://www.python.org/dev/peps/pep-0008/?#code-lay-out
+###### Reference the style guideline for your choice of language. 
+###### C++: Code style and coding guidelines https://named-data.net/doc/ndn-cpp-dev/0.4.0/code-style.html
+###### Python: PEP 8 -- Style Guide for Python Code https://www.python.org/dev/peps/pep-0008/?#code-lay-out
 
 ##### (1). Use meaningful names
 
