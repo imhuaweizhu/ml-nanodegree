@@ -13,7 +13,7 @@
 ###### 1. Clean: readable, simple and consise (for collaboration and maintainability).
 ###### 2. Modular: logically broken up into functions and modules (for reusablity and efficiency).
 
-#### Refactoring Code
+#### Refactoring your code by following the above rules
 
 ###### It isn't easy to write your best code while you're still trying to just get it working. 
 
@@ -21,7 +21,7 @@
 
 ###### Restructure your code to improve its internal structure, without changing its external functionality.
 
-#### Rule #1. Write clean code
+#### Rule #1. Refactoring your code: cleanize code
 
 ###### Reference the style guideline for your choice of language. 
 ###### C++: Code style and coding guidelines https://named-data.net/doc/ndn-cpp-dev/0.4.0/code-style.html
@@ -41,7 +41,7 @@
 ###### (c). Try to limit your lines to around 79 words/characters including comments.
 ###### (d). Refer the style guideline for your language. For example: http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#S-philosophy
 
-#### Rule #2. Write modular code
+#### Rule #2. Refactoring your code: modularize code
 
 ##### (1) Don't Repeat Yourself
 
@@ -62,6 +62,12 @@
 ##### (5) Try to use fewer than three arguments per function
 
 ###### Try to use no more than three arguments when possible. his is not a hard rule and there are times it is more appropriate to use many parameters. If your function has a lot of parameters, you may want to rethink how you are splitting this up.
+
+#### Rule #3. Refactoring your code: make your efficient code
+
+##### (1) Reduce time complexity
+##### (2) Reduce space complexity (memory/storage usage)
+
 
 
 
