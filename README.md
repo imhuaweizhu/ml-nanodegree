@@ -21,9 +21,8 @@ It isn't easy to write your best code while you're still trying to just get it w
 
 Reference the style guideline for your choice of language. 
 
-C++: Code style and coding guidelines https://named-data.net/doc/ndn-cpp-dev/0.4.0/code-style.html
-
-Python: PEP 8 -- Style Guide for Python Code https://www.python.org/dev/peps/pep-0008/?#code-lay-out
+1. C++: Code style and coding guidelines https://named-data.net/doc/ndn-cpp-dev/0.4.0/code-style.html
+2. Python: PEP 8 -- Style Guide for Python Code https://www.python.org/dev/peps/pep-0008/?#code-lay-out
 
 ###### (1). Use meaningful names
 
@@ -74,7 +73,7 @@ Try to use no more than three arguments when possible. his is not a hard rule an
 #### Types of documentation
 1. In-line comments
 2. Function-level and Module-level comments (using Docstrings)
-3. Project-level comments (using Docstrings): Your project should absolutely come with a README file. At a minimum, it should explain what it does, list its dependencies, and provide sufficiently detailed instructions on how to use it.
+3. Project-level comments: Your project should absolutely come with a README file. At a minimum, it should explain what it does, list its dependencies, and provide sufficiently detailed instructions on how to use it.
 
 
 
