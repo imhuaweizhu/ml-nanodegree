@@ -2,74 +2,74 @@
 
 ## Software eingieering practices
 
-###### Production code: software running on production servers to handle live users and data of the intended audience. 
+Production code: software running on production servers to handle live users and data of the intended audience. 
 
-###### Production quality code: code that meets expectations in reliability, efficiency, etc., for production.
+Production quality code: code that meets expectations in reliability, efficiency, etc., for production.
 
 ### Always write clean and modular code
 
 #### Two General Rules
 
-###### 1. Clean: readable, simple and consise (for collaboration and maintainability).
-###### 2. Modular: logically broken up into functions and modules (for reusablity and efficiency).
+1. Clean: readable, simple and consise (for collaboration and maintainability).
+2. Modular: logically broken up into functions and modules (for reusablity and efficiency).
 
 #### Refactoring your code by following the above rules
 
-###### It isn't easy to write your best code while you're still trying to just get it working. 
+It isn't easy to write your best code while you're still trying to just get it working. So we need to go back, clean and modularize your program after you've got the coding task working. Restructure your code to improve its internal structure, without changing its external functionality.
 
-###### So we need to go back, clean and modularize your program after you've got the coding task working. 
+##### Rule #1. Refactoring your code: cleanize code
 
-###### Restructure your code to improve its internal structure, without changing its external functionality.
+Reference the style guideline for your choice of language. 
+C++: Code style and coding guidelines https://named-data.net/doc/ndn-cpp-dev/0.4.0/code-style.html
+Python: PEP 8 -- Style Guide for Python Code https://www.python.org/dev/peps/pep-0008/?#code-lay-out
 
-#### Rule #1. Refactoring your code: cleanize code
+###### (1). Use meaningful names
 
-###### Reference the style guideline for your choice of language. 
-###### C++: Code style and coding guidelines https://named-data.net/doc/ndn-cpp-dev/0.4.0/code-style.html
-###### Python: PEP 8 -- Style Guide for Python Code https://www.python.org/dev/peps/pep-0008/?#code-lay-out
+(a). Be descriptive and imply type. Long names != descriptive names. For example: verbs for functions and nouns for variables, is_ or has_ for booleans
 
-##### (1). Use meaningful names
+(b). Be consistent but clearly differentiate. For example: age_list and age is easier to differentiate than ages and age.
 
-###### (a). Be descriptive and imply type. Long names != descriptive names. For example: verbs for functions and nouns for variables, is_ or has_ for booleans
+(c). Avoid abbreviations unless the phrase will be used a lot in the program
 
-###### (b). Be consistent but clearly differentiate. For example: age_list and age is easier to differentiate than ages and age.
+###### (2). Use whitespace properly
+(a). Organize your code with consistent indentation. For example: the standard is to use 4 spaces for each indent.
+(b). Separate sections with blank lines to keep your code well organized and readable.
+(c). Try to limit your lines to around 79 words/characters including comments.
+(d). Refer the style guideline for your language. For example: http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#S-philosophy
 
-###### (c). Avoid abbreviations unless the phrase will be used a lot in the program
+##### Rule #2. Refactoring your code: modularize code
 
-##### (2). Use whitespace properly
-###### (a). Organize your code with consistent indentation. For example: the standard is to use 4 spaces for each indent.
-###### (b). Separate sections with blank lines to keep your code well organized and readable.
-###### (c). Try to limit your lines to around 79 words/characters including comments.
-###### (d). Refer the style guideline for your language. For example: http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#S-philosophy
+###### (1) Don't Repeat Yourself
 
-#### Rule #2. Refactoring your code: modularize code
+Generalize and consolidate repeated code in functions or loops.
 
-##### (1) Don't Repeat Yourself
+###### (2) Abstract out logic to improve readability
 
-###### Generalize and consolidate repeated code in functions or loops.
+Abstracting out code into a function not only makes it less repetitive, but also improves readability with descriptive function names. But do not over-engineer this.
 
-##### (2) Abstract out logic to improve readability
+###### (3) Minimize the number of entities (functions, classes, modules, etc.)
 
-###### Abstracting out code into a function not only makes it less repetitive, but also improves readability with descriptive function names. But do not over-engineer this.
+There are tradeoffs to having function calls instead of inline logic. Creating more modules doesn't necessarily result in effective modularization.
 
-##### (3) Minimize the number of entities (functions, classes, modules, etc.)
+###### (4) Functions should do one thing
 
-###### There are tradeoffs to having function calls instead of inline logic. Creating more modules doesn't necessarily result in effective modularization.
+Generally, if there's an "and" in your function name, consider refactoring. Each function you write should be focused on doing one thing.
 
-##### (4) Functions should do one thing
+###### (5) Try to use fewer than three arguments per function
 
-###### Generally, if there's an "and" in your function name, consider refactoring. Each function you write should be focused on doing one thing.
+Try to use no more than three arguments when possible. his is not a hard rule and there are times it is more appropriate to use many parameters. If your function has a lot of parameters, you may want to rethink how you are splitting this up.
 
-##### (5) Try to use fewer than three arguments per function
+##### Rule #3. Refactoring your code: make your efficient code
 
-###### Try to use no more than three arguments when possible. his is not a hard rule and there are times it is more appropriate to use many parameters. If your function has a lot of parameters, you may want to rethink how you are splitting this up.
+###### (1) Reduce time complexity
+###### (2) Reduce space complexity (memory/storage usage)
 
-#### Rule #3. Refactoring your code: make your efficient code
+### Documentation
 
-##### (1) Reduce time complexity
-##### (2) Reduce space complexity (memory/storage usage)
-
-
-
+#### Types of documentation
+(1) In-line comments
+(2) Function-level and Module-level comments (using Docstrings)
+(3) Project-level comments (using Docstrings): Your project should absolutely come with a README file. At a minimum, it should explain what it does, list its dependencies, and provide sufficiently detailed instructions on how to use it.
 
 
 
