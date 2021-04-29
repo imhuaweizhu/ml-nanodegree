@@ -26,20 +26,20 @@ Reference the style guideline for your choice of language.
 
 ##### (1) Use meaningful names
 
------- Be descriptive and imply type. Long names != descriptive names. For example: verbs for functions and nouns for variables, is_ or has_ for booleans
+-- Be descriptive and imply type. Long names != descriptive names. For example: verbs for functions and nouns for variables, is_ or has_ for booleans
 
------- Be consistent but clearly differentiate. For example: age_list and age is easier to differentiate than ages and age.
+-- Be consistent but clearly differentiate. For example: age_list and age is easier to differentiate than ages and age.
 
------- Avoid abbreviations unless the phrase will be used a lot in the program
+-- Avoid abbreviations unless the phrase will be used a lot in the program
 
 ##### (2) Use whitespace properly
------- Organize your code with consistent indentation. For example: the standard is to use 4 spaces for each indent.
+-- Organize your code with consistent indentation. For example: the standard is to use 4 spaces for each indent.
 
------- Separate sections with blank lines to keep your code well organized and readable.
+-- Separate sections with blank lines to keep your code well organized and readable.
 
------- Try to limit your lines to around 79 words/characters including comments.
+-- Try to limit your lines to around 79 words/characters including comments.
 
------- Refer the style guideline for your language. For example: http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#S-philosophy
+-- Refer the style guideline for your language. For example: http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#S-philosophy
 
 #### Rule #2. Refactoring your code: modularize code
 
@@ -94,13 +94,13 @@ We want to test our functions in a way that is repeatable and automated. We can 
 Test Driven Development Definition: Writing tests before you write the code that’s being tested.
 Test driven development for data science is relatively new and has a lot of experimentation and breakthroughs appearing, which you can learn more about in the resources below.
 
------- Data Science TDD (https://www.linkedin.com/pulse/data-science-test-driven-development-sam-savage/)
+-- Data Science TDD (https://www.linkedin.com/pulse/data-science-test-driven-development-sam-savage/)
 
------- TDD for Data Science (https://tanzu.vmware.com/content/pivotal-engineering-journal)
+-- TDD for Data Science (https://tanzu.vmware.com/content/pivotal-engineering-journal)
 
------- TDD is Essential for Good Data Science Here's Why (https://medium.com/uk-hydrographic-office/test-driven-development-is-essential-for-good-data-science-heres-why-db7975a03a44)
+-- TDD is Essential for Good Data Science Here's Why (https://medium.com/uk-hydrographic-office/test-driven-development-is-essential-for-good-data-science-heres-why-db7975a03a44)
 
------- Testing Your Code (https://docs.python-guide.org/writing/tests/)
+-- Testing Your Code (https://docs.python-guide.org/writing/tests/)
 
 #### (2) Logging
 
@@ -112,19 +112,19 @@ Tip #2: Be concise and use normal capitalization
 
 Tip #3: Choose the appropriate level for logging
 
------- DEBUG - level you would use for anything that happens in the program.
+-- DEBUG - level you would use for anything that happens in the program.
 
------- ERROR - level to record any error that occurs
+-- ERROR - level to record any error that occurs
 
------- INFO - level to record all actions that are user-driven or system specific, such as regularly scheduled operations
+-- INFO - level to record all actions that are user-driven or system specific, such as regularly scheduled operations
 
 Tip #4: Provide any useful information
 
 
 #### (3) Code Review
 
------- Code review (https://github.com/lyst/MakingLyst/tree/master/code-reviews)
+-- Code review (https://github.com/lyst/MakingLyst/tree/master/code-reviews)
 
------- Code review best practice (https://www.kevinlondon.com/2015/05/05/code-review-best-practices.html)
+-- Code review best practice (https://www.kevinlondon.com/2015/05/05/code-review-best-practices.html)
 
 
