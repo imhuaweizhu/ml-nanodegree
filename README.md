@@ -133,12 +133,6 @@ Why code review?
 
 (4). Share knowledge among teams
 
-Reference: 
-
-(1) Guidelines for code reviews (https://github.com/lyst/MakingLyst/tree/master/code-reviews)
-
-(2) Code review best practice (https://www.kevinlondon.com/2015/05/05/code-review-best-practices.html)
-
 Questions to ask yourself when conducting a code review:
 
 (1). Is the code clean and modular?
@@ -148,3 +142,9 @@ Questions to ask yourself when conducting a code review:
 (3). Is the documentation effective?
 
 (4). Is the logging effective?
+
+Reference: 
+
+(1) Guidelines for code reviews (https://github.com/lyst/MakingLyst/tree/master/code-reviews)
+
+(2) Code review best practice (https://www.kevinlondon.com/2015/05/05/code-review-best-practices.html)
