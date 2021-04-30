@@ -123,8 +123,20 @@ Tip #4: Provide any useful information
 
 #### (3) Code Review
 
--- Code review (https://github.com/lyst/MakingLyst/tree/master/code-reviews)
+Why code review?
 
--- Code review best practice (https://www.kevinlondon.com/2015/05/05/code-review-best-practices.html)
+(1). Catch errors
+
+(2). Ensure readability
+
+(3). Check standards are met
+
+(4). Share knowledge among teams
+
+Reference: 
+
+(1) Guidelines for code reviews (https://github.com/lyst/MakingLyst/tree/master/code-reviews)
+
+(2) Code review best practice (https://www.kevinlondon.com/2015/05/05/code-review-best-practices.html)
 
 
